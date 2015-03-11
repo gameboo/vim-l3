@@ -60,7 +60,7 @@ syntax match	l3Functions	';'
 syntax match	l3Functions	':'
 syntax match	l3Functions	'`'
 syntax match	l3Functions	'@'
-syntax keyword  l3Functions InitMap
+syntax keyword  l3Functions InitMap None
 syntax keyword  l3Functions insert Log2 Min Max SignedMin SignedMax Abs
 syntax keyword  l3Functions Size ZeroExtend SignExtend Reverse Msb Fst Snd
 syntax keyword  l3Functions SetOfList Some ValOf IsSome Cons Head Tail Length
