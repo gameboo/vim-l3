@@ -66,6 +66,11 @@ syntax keyword  l3Functions Size ZeroExtend SignExtend Reverse Msb Fst Snd
 syntax keyword  l3Functions SetOfList Some ValOf IsSome Cons Head Tail Length
 syntax keyword  l3Functions fpNeg32 fpAdd32 fpSub32 fpMul32
 syntax keyword  l3Functions fpNeg64 fpAdd64 fpSub64 fpMul64
+syntax keyword  l3Functions Union Intersect Difference IsSubset Cardinality Element
+syntax keyword  l3Functions Take Drop Remove RemoveExcept RemoveDuplicates IsMember IndexOf
+syntax keyword  l3Functions IsAlpha IsAlphaNum IsDigit IsHexDigit IsLower IsUpper
+syntax keyword  l3Functions FromBinString FromDecString FromHexString ToLower ToUpper
+syntax keyword  l3Functions splitl splitr fields tokens
 " L3 keywords
 syntax keyword  l3Keywords assign case clear component construct declare define
 syntax keyword  l3Keywords do else exception for foreach if list match nothing
