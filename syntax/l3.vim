@@ -74,7 +74,7 @@ syntax keyword  l3Functions splitl splitr fields tokens
 " L3 keywords
 syntax keyword  l3Keywords assign case clear component construct declare define
 syntax keyword  l3Keywords do else exception for foreach if list match nothing
-syntax keyword  l3Keywords pattern patterns record register return set then
+syntax keyword  l3Keywords pattern patterns record register return set then inline
 syntax keyword  l3Keywords type var when RAO! RAZ! UNK! UNKNOWN
 " L3 constructors
 "syntax match    l3Constructors      '\*'
